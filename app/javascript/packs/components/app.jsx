@@ -6,9 +6,13 @@ import {
   HashRouter
 } from 'react-router-dom'
 
+import Splash from '../views/splash';
+
 const App = () => (
   <HashRouter>
-    <div>This is the App</div>
+    <Switch>
+      <Route exact path="/" component={Splash} />
+    </Switch>
   </HashRouter>
 )
 

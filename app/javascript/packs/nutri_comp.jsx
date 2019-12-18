@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Root from './components/root';
-import configureStore from './components/store';
+import configureStore from './redux/store';
 
 document.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById("root");
