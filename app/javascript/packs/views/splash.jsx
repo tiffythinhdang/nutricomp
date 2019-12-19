@@ -2,6 +2,7 @@ import React from 'react';
 import styled from'styled-components';
 
 import Header from'../components/header/header';
+import SearchBar from'../components/search_bar/search_bar';
 
 
 // const PaddedContainer = styled('div')`
@@ -32,8 +33,11 @@ import Header from'../components/header/header';
 
 const Splash = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+      <SearchBar />
+    </div>
   )
-}
+};
 
 export default Splash;
